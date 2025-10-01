@@ -1,0 +1,118 @@
+/* login.css */
+
+/* Background */
+.login-bg {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b1a2b; /* Dark tech-style background */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Login Box */
+.login-box {
+  background: rgba(255, 255, 255, 0.05); /* Semi-transparent */
+  backdrop-filter: blur(15px); /* Frosted glass effect */
+  border-radius: 15px;
+  padding: 40px 30px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: relative;
+}
+
+/* Heading */
+.login-box h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 93%;
+  padding: 12px 15px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.input-group input:focus {
+  border-color: #1a73e8;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Options - Remember me & Forgot password */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.options input[type="checkbox"] {
+  margin-right: 5px;
+  accent-color: #1a73e8;
+}
+
+.forgot-link {
+  color: #1a73e8;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #1a73e8, #4facfe);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(90deg, #4facfe, #1a73e8);
+}
+
+/* Error Message */
+.error-msg {
+  margin-top: 20px;
+  background: rgba(255, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+  color: #ff4d4d;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .login-box {
+    width: 90%;
+    padding: 30px 20px;
+  }
+}

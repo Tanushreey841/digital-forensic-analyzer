@@ -1,0 +1,30 @@
+.home-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.home-header {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.home-subtext {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.home-button {
+  padding: 12px 20px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  background: #0097a7;
+}

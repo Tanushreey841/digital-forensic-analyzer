@@ -1,0 +1,102 @@
+/* Navbar wrapper */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0a1a2f;
+  padding: 12px 24px;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Left side: Logo + Brand */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1.4rem;
+  color: #4dabf7;
+  margin-right: 10px;
+}
+
+.brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.brand:hover {
+  color: #4dabf7;
+}
+
+/* Right side: Links/Buttons */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #132b45;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.nav-icon {
+  font-size: 1rem;
+  color: #4dabf7;
+}
+
+/* Buttons */
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #4dabf7;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #339af0;
+}
+
+.btn.small {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+
+.btn.ghost {
+  background: transparent;
+  border: 1px solid #4dabf7;
+  color: #4dabf7;
+}
+
+.btn.ghost:hover {
+  background: #4dabf7;
+  color: #fff;
+}
+
+.logout-btn {
+  background: #e03131;
+}
+
+.logout-btn:hover {
+  background: #c92a2a;
+}

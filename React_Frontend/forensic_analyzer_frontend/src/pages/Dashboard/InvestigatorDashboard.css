@@ -1,0 +1,178 @@
+.dashboard {
+  max-width: 900px;
+  margin: 30px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafc;
+  border-radius: 14px;
+  box-shadow: 0 12px 36px rgba(48, 50, 74, 0.12);
+  padding: 32px 40px;
+  color: #3b3b3b;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #2a3f66;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 2.3rem;
+  letter-spacing: 0.03em;
+  font-family: "Segoe UI Semibold", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(53, 61, 89, 0.09);
+  padding: 28px 24px;
+  margin-bottom: 28px;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0 10px 36px rgba(53, 61, 89, 0.15);
+}
+
+.card h3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #334a89;
+  font-weight: 600;
+  font-size: 1.38rem;
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: #4a5db1;
+  font-size: 1.3rem;
+}
+
+.evidence-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.evidence-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e3e6f0;
+  font-size: 1rem;
+  color: #525e75;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.evidence-list li:hover {
+  background-color: #f5f7fb;
+}
+
+.file-name {
+  font-weight: 600;
+  color: #2c3e70;
+  flex: 2;
+}
+
+.hash {
+  font-family: "Consolas", "Monaco", monospace;
+  color: #777d94;
+  flex: 3;
+  text-align: right;
+}
+
+input[type="file"] {
+  margin: 14px 0 18px 0;
+  border-radius: 6px;
+  background: #f1f4f9;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1.5px solid #d0d7e4;
+  transition: border-color 0.25s;
+}
+
+input[type="file"]:focus {
+  outline: none;
+  border-color: #4a67d1;
+  box-shadow: 0 0 5px rgba(74, 103, 209, 0.4);
+}
+
+.btn {
+  background: #4a67d1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  margin-left:20px;
+  margin-top:10px;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(74, 103, 209, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background: #3b53b0;
+  box-shadow: 0 6px 20px rgba(59, 83, 176, 0.55);
+}
+
+.upload-btn {
+  background-color: #3da64a;
+  box-shadow: 0 4px 12px rgba(61, 166, 74, 0.3);
+}
+
+.upload-btn:hover {
+  background-color: #327f39;
+  box-shadow: 0 6px 20px rgba(50, 127, 57, 0.5);
+}
+
+.verify-btn {
+  background-color: #ffb408;
+  color: #313131;
+  box-shadow: 0 4px 12px rgba(255, 180, 8, 0.3);
+}
+
+.verify-btn:hover {
+  background-color: #d69606;
+  box-shadow: 0 6px 20px rgba(214, 150, 6, 0.5);
+}
+
+.pdf-btn {
+  background-color: #d93131;
+  box-shadow: 0 4px 12px rgba(217, 49, 49, 0.3);
+}
+
+.pdf-btn:hover {
+  background-color: #a72626;
+  box-shadow: 0 6px 20px rgba(167, 38, 38, 0.5);
+}
+
+.message {
+  margin-top: 14px;
+  font-weight: 600;
+  color: #6b48e3;
+  background-color: #ebeaff;
+  border-radius: 8px;
+  padding: 12px 14px;
+  box-shadow: 0 3px 10px rgba(107, 72, 227, 0.2);
+  max-width: 420px;
+  word-wrap: break-word;
+}
+
+.verify-result {
+  background: #f9fafb;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 14px;
+  white-space: pre-wrap;
+  box-shadow: 0 2px 10px rgba(169, 176, 204, 0.3);
+  font-family: "Consolas", "Monaco", monospace;
+  color: #4b4f60;
+  font-size: 1rem;
+}

@@ -1,0 +1,49 @@
+/* src/styles/dashboard.css */
+
+/* simple nav */
+.nav {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 16px;
+  background:#0b2545;
+  color:white;
+}
+.brand { color:white; text-decoration:none; font-weight:700; font-size:1.1rem; }
+.nav-right { display:flex; gap:8px; align-items:center; }
+.btn {
+  background: #0b61ff;
+  color: white;
+  border: none; padding:8px 12px; border-radius:6px;
+  cursor:pointer;
+  text-decoration:none;
+}
+.btn.ghost { background:transparent; border:1px solid rgba(255,255,255,0.2); color:white; }
+.btn.small { padding:6px 8px; font-size:0.9rem; }
+.nav-user { margin-right: 8px; color:#e6f0ff; }
+
+/* cards / panels */
+.card {
+  background:white;
+  padding:16px;
+  border-radius:6px;
+  box-shadow: 0 1px 4px rgba(16,24,40,0.06);
+  margin-bottom:12px;
+}
+
+/* tables */
+.table { width:100%; border-collapse:collapse; }
+.table th, .table td { padding:8px 10px; border-bottom:1px solid #eee; text-align:left; }
+
+/* auth card */
+.auth-card { width: 320px; }
+.auth-card input, .auth-card select {
+  width:100%;
+  padding:8px;
+  margin:6px 0 12px 0;
+  box-sizing:border-box;
+}
+
+/* misc */
+.error { color: #a30000; margin-top:8px; }
+.home-card { text-align:center; padding:40px; }

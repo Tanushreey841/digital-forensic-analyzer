@@ -1,0 +1,99 @@
+.auth-page {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left side background */
+.auth-image {
+  flex: 1;
+  background: url("./images/device.jpg") no-repeat center center/cover;
+}
+
+/* Right side form */
+.auth-form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #07131e;
+  padding: 2rem;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.auth-card h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card label {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.auth-card input,
+.auth-card select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.auth-card input:focus,
+.auth-card select:focus {
+  border-color: #007bff;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.auth-msg {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: green;
+  text-align: center;
+}
+
+.auth-footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.auth-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+.audit-container {
+  padding: 20px;
+}
+
+.audit-header {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.audit-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.audit-table th,
+.audit-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.audit-table th {
+  background-color: #f4f4f4;
+}
