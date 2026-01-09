@@ -1,4 +1,4 @@
-🔍 Digital Forensic Log & Evidence Analyzer
+ Digital Forensic Log & Evidence Analyzer
 📌 Project Overview
 
 The Digital Forensic Log & Evidence Analyzer is a secure backend-driven web application designed to assist investigators in uploading, analyzing, and verifying digital logs and evidence files. The system focuses on data integrity, access control, and auditability, making it suitable for academic and forensic use cases.
@@ -88,7 +88,9 @@ Verify file integrity over time
 
 Maintain audit trails for accountability
 
-👩‍💻 Project Type
+
+ 
+ Project Type
 
 Individual Academic Project
 
@@ -103,3 +105,4 @@ Cloud-based secure storage
 Enhanced reporting dashboards
 
 Multi-factor authentication (MFA)
+
